@@ -1,2 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Global */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Montserrat";
+  font-size: 12px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: #f2f2f2;
+  background-color: rgb(38, 38, 38);
+}
+
+a {
+  text-decoration: none;
+  color: #008080;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
+
+header {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 90rem;
+  margin: 0;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  width: 7rem;
+}
+
+.me {
+  height: 9rem;
+  width: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 1.5rem 0;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.burger-bun {
+  width: 25px;
+  height: 3px;
+  margin: 3px 0;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.burger {
+  cursor: pointer;
+  z-index: 999;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: rgba(38, 38, 38, 0.5);
+  padding: 1.2rem;
+  border-radius: 0%, 0%, 0%, 40%;
+}
+
+.nav-list {
+  width: 24rem;
+  height: 100vh;
+  background-color: #222222;
+  position: fixed;
+  top: 0;
+  right: -26rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  z-index: 998;
+  transition: all 500ms ease-in-out;
+}
+
+.nav-list.active {
+  right: 0;
+}
+
+.nav-item {
+  margin: 1.2rem 0;
+}
+
+.nav-link {
+    opacity: 0;
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+}
+
+.nav-link:hover {
+    color: rgb(163, 120, 2);
+}
+
+.toggle {
+    background: none;
+}
+
+.toggle .bun1 {
+    transform: rotate(-45deg) translate(-5px, 5px) scale(0.7);
+}
+
+.toggle .bun2 {
+    transform: rotate(45deg) translate(0.5px, 0.5px) scale(0.7);
+}
+
+.toggle .bun3 {
+    opacity: 0;
+}
+
+@keyframes navLinkAnimation {
+    from {
+        opacity: 0;
+        transform: translate(50px);
+    } to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
