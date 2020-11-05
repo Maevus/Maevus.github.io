@@ -75,7 +75,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .burger-bun {
@@ -91,7 +90,6 @@ nav {
   position: fixed;
   right: 0;
   top: 0;
-  background: rgba(38, 38, 38, 0.5);
   padding: 1.2rem;
   border-radius: 0%, 0%, 0%, 40%;
 }
@@ -120,37 +118,161 @@ nav {
 }
 
 .nav-link {
-    opacity: 0;
-    font-size: 1.3rem;
-    letter-spacing: 1.2px;
+  opacity: 0;
+  font-size: 1.3rem;
+  letter-spacing: 1.2px;
 }
 
 .nav-link:hover {
-    color: rgb(163, 120, 2);
-}
-
-.toggle {
-    background: none;
+  color: rgb(163, 120, 2);
 }
 
 .toggle .bun1 {
-    transform: rotate(-45deg) translate(-5px, 5px) scale(0.7);
+  transform: rotate(-45deg) translate(-5px, 5px) scale(0.7);
 }
 
 .toggle .bun2 {
-    transform: rotate(45deg) translate(0.5px, 0.5px) scale(0.7);
+  transform: rotate(45deg) translate(0.5px, 0.5px) scale(0.7);
 }
 
 .toggle .bun3 {
-    opacity: 0;
+  opacity: 0;
 }
 
 @keyframes navLinkAnimation {
-    from {
-        opacity: 0;
-        transform: translate(50px);
-    } to {
-        opacity: 1;
-        transform: translate(0px);
-    }
+  from {
+    opacity: 0;
+    transform: translate(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+/* Landing */
+.landing {
+  width: 100%;
+  height: 100vh;
+  background: url("images/landing.png") center no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.home {
+  width: 100%;
+  max-width: 58rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home h2 {
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(14), blink 1s ease-in-out 2.1s infinite;
+  width: 14ch;
+  margin: auto;
+  border-right: 2px solid #f2f2f2;
+}
+
+.home h3 {
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 1rem 0;
+  color: #f2f2f2;
+}
+
+.home p {
+  letter-spacing: 0.1rem;
+  text-transform: none;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+@keyframes typing {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 14ch;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-right: 2px solid rgba(255, 255, 255, 0);
+  }
+  to {
+    border-right: 2px solid #f2f2f2;
+  }
+}
+
+.scroll i {
+  color: #f2f2f2;
+  transition: color 650ms;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+.scroll i:hover {
+  cursor: pointer;
+  color: rgb(163, 120, 2);
+}
+
+/* About */
+.about {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.about .container {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.about-image img {
+  height: 12rem;
+  width: auto;
+  border-radius: 50%;
+  margin: 2rem;
+  box-shadow: 0 20px 30px 0 rgba(33, 33, 34, 0.15);
+}
+
+.about-text {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  padding: 0;
+  margin-bottom: 1.45rem;
+}
+
+hr {
+  margin: 4rem;
+  background: white;
+  border: 0;
+  height: 1px;
+}
+
+section {
+    padding: 60px
 }

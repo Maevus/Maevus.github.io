@@ -12,7 +12,7 @@ selectElement(".burger").addEventListener("click", () => {
         if(link.style.animation) {
             link.style.animation = ""
         } else {
-            link.style.animation = `navLinkAnimation 0.5s ease forwards ${index/5+0.1}s`
+            link.style.animation = `navLinkAnimation 0.5s ease forwards ${index/10+0.1}s`
         }
     });
 });
