@@ -25,6 +25,10 @@ a {
   color: #008080;
 }
 
+a:hover {
+  color: rgb(163, 120, 2);
+}
+
 ul {
   list-style: none;
 }
@@ -50,10 +54,17 @@ header {
   z-index: 1;
 }
 
-.container {
+.nav-container {
   width: 100%;
   max-width: 90rem;
   margin: 0;
+  padding: 0 1.5rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
   padding: 0 1.5rem;
 }
 
@@ -121,10 +132,6 @@ nav {
   opacity: 0;
   font-size: 1.3rem;
   letter-spacing: 1.2px;
-}
-
-.nav-link:hover {
-  color: rgb(163, 120, 2);
 }
 
 .toggle .bun1 {
@@ -267,12 +274,162 @@ nav {
 }
 
 hr {
-  margin: 4rem;
+  margin: 4rem 0;
   background: white;
   border: 0;
   height: 1px;
 }
 
 section {
-    padding: 60px
+  padding: 60px;
+}
+
+/* Work */
+.work {
+  padding: 3em 0;
+  min-height: 100vh;
+  max-width: 98 rem;
+  margin: auto;
+}
+
+.title-heading {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.title-heading h2 {
+  font-size: 2rem;
+  margin: 0.5rm 0 1 rem 0;
+}
+
+.title-heading p {
+  font-family: "Gill Sans", "sans-serif";
+  margin-bottom: 5rem;
+}
+
+.work-tiers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2.5rem;
+}
+
+.tier-item {
+  height: 30rem;
+  padding: 3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: default;
+}
+
+.tier-item i {
+  font-size: 4rem;
+}
+
+.tier-item h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.tier-item p {
+  font-family: "Gill Sans", "sans-serif";
+  font-size: 1.4rem;
+}
+
+/* Projects */
+.projects {
+  padding: 3rem 0;
+  min-height: 100vh;
+  max-width: 78rem;
+  margin: auto;
+}
+
+.has-margin-right {
+  margin: 0 3rem 0 0;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1.5rem 5 1.5;
+}
+
+.project-img {
+  flex: 1;
+}
+
+.project-description {
+  flex: 1;
+}
+
+.project-description h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.project-description p {
+  font-family: "Gill Sans", "sans-serif";
+  font-size: 1.4rem;
+}
+
+.project-link {
+  display: inline-block;
+  margin: 2rem 0;
+  font-size: 1.4rem;
+}
+
+.contact {
+  width: 100%;
+  max-width: 78rem;
+  max-height: 50vh;
+  margin: auto;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5 rem;
+  margin-bottom: 5rem;
+}
+
+.contact p {
+  font-family: "Gill Sans", "sans-serif";;
+  font-size: 1.4rem;
+  padding: 0;
+  margin: 0.9 2rem;
+}
+
+.contact .container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer{
+  width: 100%;
+  max-width: 70rem;
+  margin: auto;
+  padding: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+footer a{
+  margin: 0 0.8rem;
+}
+
+.footer-text {
+  margin: 2rem 0;
+  font-family: "Gill Sans", "sans-serif";
+  font-size: 1.4rem;
+}                         
+
+.chevron-up {
+  margin: 1rem;
+  align-items: center;  
 }
