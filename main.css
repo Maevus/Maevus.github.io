@@ -437,4 +437,56 @@ footer a {
   margin: 2rem 0;
   font-family: "Gill Sans", "sans-serif";
   font-size: 1.4rem;
-}                         
+}   
+
+/* Responsive Design */
+
+@media (max-width: 800px) {
+  .about .container {
+    flex-direction: column;
+  }
+
+  .title-heading {
+    margin-bottom: 0rem;
+  }
+
+  .work-tiers {
+    gap: 0rem
+  }
+
+  .play-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    box-shadow: 0 20px 38px rgba(255, 255, 255, 0.05);
+  }
+
+  .play-img{
+    width: 20rem;
+  }
+
+
+}
+
+@media (max-width: 500px) {
+  .home {
+    padding-bottom: 5rem;
+  }
+
+  .home h3 {
+    font-size: 1.5rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1;
+  }
+
+  footer, footer p {
+    font-size: 1rem;
+  }
+}
+
