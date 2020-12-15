@@ -390,7 +390,7 @@ section {
 .contact {
   width: 100%;
   max-width: 98rem;
-  max-height: 50vh;
+  max-height: 100vh;
   margin: auto;
   padding: 3rem 0;
 }
