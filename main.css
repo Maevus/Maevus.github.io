@@ -416,20 +416,6 @@ section {
   flex-direction: column;
 }
 
-.chevron-up {
-  margin: auto;
-  text-align: center;  
-  display: flex;
-}
-
-.chevron-up a {
-  margin: auto;
-  text-align: center;  
-  font-size: 2rem;
-  display: flex;
-  color: #f2f2f2;
-}
-
 /* FOOTER */
 footer { 
   width: 100%;
