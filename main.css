@@ -338,23 +338,23 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 1.5rem 5 1.5;
+  margin: 0 1.5rem 5rem;
 }
 
 .play-img {
   flex: 1;
 }
 
-.play-description {
+.play-text {
   flex: 1;
 }
 
-.play-description h2 {
+.play-text h2 {
   font-size: 2rem;
   margin: 2rem 0;
 }
 
-.play-description p {
+.play-text p {
   font-family: "Gill Sans", "sans-serif";
   font-size: 1.4rem;
 }
@@ -364,6 +364,8 @@ section {
   margin: 2rem 0;
   font-size: 1.4rem;
 }
+
+/*Contact*/
 
 .contact {
   width: 100%;
