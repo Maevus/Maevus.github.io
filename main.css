@@ -335,7 +335,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 1.5rem;
+  /* margin: 0 1.5rem; */
 }
 
 .play-img {
@@ -359,7 +359,6 @@ section {
 }
 
 /*Contact*/
-
 .contact {
   width: 100%;
   max-width: 98rem;
@@ -426,8 +425,7 @@ footer a {
   .about .about-text {
     padding: 2rem;
     margin: 2rem;
-    /* box-shadow: 0 20px 38px rgba(255, 255, 255, 0.02); */
-    box-shadow: 0 20px 38px rgba(128, 57, 57, 1);
+    box-shadow: 0 20px 38px rgba(255, 255, 255, 0.02);
   }
 
   .play-item {
@@ -435,7 +433,7 @@ footer a {
     align-items: flex-start;
     padding: 2rem;
     margin: 2rem;
-    box-shadow: 0 20px 38px rgba(155, 77, 77, 1);
+    box-shadow: 0 20px 38px rgba(255, 255, 255, 0.02);
   }
 
   .play-item .image {
