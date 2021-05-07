@@ -207,6 +207,43 @@ nav {
   opacity: 0;
 }
 
+.home_small {
+  width: 100%;
+  max-width: 58rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home_small h2 {
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing3 2s steps(25), blink 1s 2.1s 1;
+  width: 25ch;
+  margin: auto;
+  border-right: 1px transparent;
+}
+
+.home_small h3 {
+  letter-spacing:0.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  width: 26ch;
+  margin: 0 auto;
+  color: #f2f2f2;
+  animation: slidein 1s ease 2.5s forwards, typing4 2.5s steps(26), blink 1s ease-in-out 5s 10;
+  animation-delay: 3s;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 1px transparent;
+  opacity: 0;
+}
+
 .scroll i{
   color: #f2f2f2;
   transition: color 650ms;
@@ -358,6 +395,10 @@ footer a {
   font-size: 1.4rem;
 }   
 
+.home_small {
+  visibility: hidden;
+}
+
 /* Responsive Design */
 
 @media (max-width: 1024px) {
@@ -370,21 +411,25 @@ footer a {
   }
 
   .about .about-text {
-    padding: 2rem;
-    margin: 2rem;
+    padding: 1rem;
+    margin: 1rem;
     box-shadow: 0 20px 38px rgba(255, 255, 255, 0.02);
   }
 
   .play-item {
     flex-direction: column;
     align-items: flex-start;
-    padding: 2rem;
-    margin: 2rem;
+    padding: 1rem;
+    margin: 1rem;
     box-shadow: 0 20px 38px rgba(255, 255, 255, 0.02);
   }
 
   .play-item .image {
     margin: auto;
+  }
+
+  .home_small {
+    visibility: hidden;
   }
 }
 
@@ -398,13 +443,22 @@ footer a {
   }
 
   .home {
+    display: none;
+  }
+
+  .home_small {
+    visibility: visible;
+  }
+
+  .home_small {
     padding-bottom: 5rem;
   }
 
-  .home h2 {
+  .home_small h2 {
     font-size: 1.1rem;
   }
-  .home h3 {
+
+  .home_small h3 {
     font-size: 1rem;
   }
 
@@ -469,6 +523,28 @@ footer a {
   }
   100% {
     width: 33ch;
+    border-right: 1px solid #f2f2f2;
+  }
+}
+
+@keyframes typing3 {
+  0% {
+    width: 0ch;
+    border-right: 1px solid #f2f2f2;
+  }
+  100% {
+    width: 25ch;
+    border-right: 1px solid #f2f2f2;
+  }
+}
+
+@keyframes typing4 {
+  0% {
+    width: 0ch;
+    border-right: 1px solid #f2f2f2;
+  }
+  100% {
+    width: 26ch;
     border-right: 1px solid #f2f2f2;
   }
 }
