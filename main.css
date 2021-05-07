@@ -37,6 +37,10 @@ p {
   font-size: 1.4rem;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 img {
   width: 100%;
   max-width: 100%;
@@ -203,46 +207,6 @@ nav {
   opacity: 0;
 }
 
-@keyframes slidein {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes typing {
-  0% {
-    width: 0ch;
-    border-right: 1px solid #f2f2f2;
-  }
-  100% {
-    width: 30ch;
-    border-right: 1px solid #f2f2f2;
-  }
-}
-
-@keyframes typing2 {
-  0% {
-    width: 0ch;
-    border-right: 1px solid #f2f2f2;
-  }
-  100% {
-    width: 33ch;
-    border-right: 1px solid #f2f2f2;
-  }
-}
-
-@keyframes blink {
-  from {
-    border-right: 1px black
-  }
-  to {
-    border-right: 1px solid #f2f2f2;
-  }
-}
-
 .scroll i{
   color: #f2f2f2;
   transition: color 650ms;
@@ -264,21 +228,6 @@ hr {
 
 section {
   padding: 60px;
-}
-
-.title-heading {
-  text-align: center;
-  margin-bottom: 5rem;
-}
-
-.title-heading h2 {
-  font-size: 2rem;
-  margin: 0.5rm 0 1 rem 0;
-}
-
-.title-heading p {
-  font-family: "Gill Sans", "sans-serif";
-  margin-bottom: 5rem;
 }
 
 /* About */
@@ -311,7 +260,6 @@ section {
 }
 
 .about-text h2 {
-  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -348,7 +296,6 @@ section {
 }
 
 .play h2 {
-  font-size: 2rem;
   margin: 2rem 2rem;
 }
 
@@ -442,24 +389,95 @@ footer a {
 }
 
 @media (max-width: 640px) {
+  .fas fa-heart {
+  font-size: xx-small
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
   .home {
     padding-bottom: 5rem;
   }
 
-  .home h3 {
-    font-size: 1.5rem;
+  .home h2 {
+    font-size: 1.1rem;
   }
-
-  .home p {
+  .home h3 {
     font-size: 1rem;
   }
 
-  p {
-    font-size: 1;
+  .home .scroll {
+    font-size: xx-small;
+  }
+
+  .about h2 {
+    font-size: 1rem;
+  }
+
+  .about p {
+    font-size: 0.7rem;
+  }
+
+  .about h2 {
+    font-size: 1rem;
+  }
+
+  .play p {
+    font-size: 0.7rem;
+  }
+
+  .play h4 {
+    font-size: 0.6rem;
+  }
+
+  .contact, .contact p {
+    font-size: 0.9rem;
   }
 
   footer, footer p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
+/*Animations*/
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0ch;
+    border-right: 1px solid #f2f2f2;
+  }
+  100% {
+    width: 30ch;
+    border-right: 1px solid #f2f2f2;
+  }
+}
+
+@keyframes typing2 {
+  0% {
+    width: 0ch;
+    border-right: 1px solid #f2f2f2;
+  }
+  100% {
+    width: 33ch;
+    border-right: 1px solid #f2f2f2;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-right: 1px black
+  }
+  to {
+    border-right: 1px solid #f2f2f2;
+  }
+}
