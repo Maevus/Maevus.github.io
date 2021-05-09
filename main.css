@@ -12,12 +12,13 @@
 }
 
 html {
-  font-family: "Montserrat";
-  font-size: 16px;
+  font-size: 62.5%;
   box-sizing: border-box;
   scroll-behavior: smooth;
   color: #f2f2f2;
   background-color: rgb(38, 38, 38);
+  font-family: "Montserrat";
+  font-size: 1.6rem;  
 }
 
 a {
@@ -77,7 +78,7 @@ header {
 }
 
 .me {
-  height: 9rem;
+  height: 7rem;
   width: auto;
   border-radius: 50%;
   display: block;
@@ -93,9 +94,9 @@ nav {
 }
 
 .burger-bun {
-  width: 25px;
-  height: 3px;
-  margin: 3px 0;
+  width: 2.5rem;
+  height: 0.3rem;
+  margin: 0.3rem 0;
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -135,15 +136,15 @@ nav {
 .nav-link {
   opacity: 0;
   font-size: 1.5rem;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.12rem;
 }
 
 .toggle .bun1 {
-  transform: rotate(-45deg) translate(-5px, 5px) scale(0.7);
+  transform: rotate(-45deg) translate(-0.5rem, 0.5rem) scale(0.7);
 }
 
 .toggle .bun2 {
-  transform: rotate(45deg) translate(0.5px, 0.5px) scale(0.7);
+  transform: rotate(45deg) translate(0.05rem, 0.05rem) scale(0.7);
 }
 
 .toggle .bun3 {
@@ -171,25 +172,25 @@ nav {
 }
 
 .home h2 {
-  letter-spacing: 0.2rem;
-  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 2s steps(30), blink 1s 2.1s 1;
+  animation: typing 2s steps(31), blink 1s 2.1s 1;
   width: 30ch;
   margin: auto;
   border-right: 1px transparent;
 }
 
 .home h3 {
-  letter-spacing:0.2rem;
-  font-size: 2rem;
+  letter-spacing:0.1rem;
+  font-size: 1.4rem;
   font-weight: 400;
   width: 33ch;
   margin: 0 auto;
   color: #f2f2f2;
-  animation: slidein 1s ease 2.5s forwards, typing2 2.5s steps(33), blink 1s ease-in-out 5s 10;
+  animation: slidein 1s ease 2.5s forwards, typing2 2.5s steps(35), blink 1s ease-in-out 5s 10;
   animation-delay: 3s;
   overflow: hidden;
   white-space: nowrap;
@@ -244,7 +245,7 @@ nav {
 .scroll i {
   color: #f2f2f2;
   transition: color 650ms;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .scroll i:hover {
@@ -253,10 +254,11 @@ nav {
 }
 
 hr {
-  margin: 4rem 0;
-  background: white;
+  margin: 4rem auto;
+  background: #f2f2f2;
   border: 0;
   height: 1px;
+  width: 70%;
 }
 
 section {
@@ -521,7 +523,7 @@ footer a {
     border-right: 1px solid #f2f2f2;
   }
   100% {
-    width: 30ch;
+    width: 31ch;
     border-right: 1px solid #f2f2f2;
   }
 }
@@ -532,7 +534,7 @@ footer a {
     border-right: 1px solid #f2f2f2;
   }
   100% {
-    width: 33ch;
+    width: 35ch;
     border-right: 1px solid #f2f2f2;
   }
 }
