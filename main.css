@@ -13,7 +13,7 @@
 
 html {
   font-family: "Montserrat";
-  font-size: 12px;
+  font-size: 16px;
   box-sizing: border-box;
   scroll-behavior: smooth;
   color: #f2f2f2;
@@ -234,11 +234,17 @@ nav {
   opacity: 0;
 }
 
-.scroll i{
+.scroll {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  text-align: center;
+}
+
+.scroll i {
   color: #f2f2f2;
   transition: color 650ms;
-  margin-top: 2rem;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .scroll i:hover {
@@ -406,6 +412,13 @@ footer a {
     box-shadow: 0 20px 38px rgba(255, 255, 255, 0.02);
   }
 
+  .scroll {
+    position: absolute;
+    left: 47%;
+    top: 80%;
+    text-align: center;
+  }
+
   .play-item {
     flex-direction: column;
     align-items: flex-start;
@@ -452,8 +465,15 @@ footer a {
     font-size: 1rem;
   }
 
-  .home .scroll {
-    font-size: xx-small;
+  .scroll {
+    position: absolute;
+    left: 44%;
+    top: 80%;
+  }
+  
+  .scroll i {
+    font-size: 3rem;
+    text-align: center;
   }
 
   .about h2 {
