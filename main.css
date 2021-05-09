@@ -70,7 +70,7 @@ header {
 
 .nav-container {
   width: 100%;
-  max-width: 90rem;
+  max-width: 50rem;
   margin: 0;
   padding: 0 1.5rem;
 }
@@ -83,7 +83,7 @@ header {
 }
 
 .logo {
-  width: 7rem;
+  width: 4rem;
 }
 
 .me {
@@ -120,7 +120,7 @@ nav {
 }
 
 .nav-list {
-  width: 24rem;
+  width: 15rem;
   height: 100vh;
   background-color: #222222;
   position: fixed;
@@ -139,7 +139,7 @@ nav {
 }
 
 .nav-item {
-  margin: 0.9rem 0;
+  margin: 1rem 0;
 }
 
 .nav-link {
@@ -149,11 +149,11 @@ nav {
 }
 
 .toggle .bun1 {
-  transform: rotate(-45deg) translate(-0.5rem, 0.5rem) scale(0.7);
+  transform: rotate(-45deg) translate(-0.5rem, 0.5rem) scale(0.5);
 }
 
 .toggle .bun2 {
-  transform: rotate(45deg) translate(0.05rem, 0.05rem) scale(0.7);
+  transform: rotate(45deg) translate(0.05rem, 0.05rem) scale(0.5);
 }
 
 .toggle .bun3 {
@@ -198,7 +198,7 @@ section {
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 2s steps(31), blink 1s 2.1s 1;
+  animation: typing 2s steps(30), blink 1s 2.1s 1;
   width: 30ch;
   margin: auto;
   border-right: 1px transparent;
@@ -211,7 +211,7 @@ section {
   width: 33ch;
   margin: 0 auto;
   color: #f2f2f2;
-  animation: slidein 1s ease 2.5s forwards, typing2 2.5s steps(35), blink 1s ease-in-out 5s 10;
+  animation: slidein 1s ease 2.5s forwards, typing2 2.5s steps(33), blink 1s ease-in-out 5s 10;
   animation-delay: 3s;
   overflow: hidden;
   white-space: nowrap;
@@ -308,7 +308,6 @@ section {
 }
 
 .about-text p {
-  font-family: "Gill Sans", sans-serif;
   font-size: 1rem;
   padding: 0;
   margin-bottom: 1rem;
@@ -344,7 +343,6 @@ section {
 }
 
 .play-text p {
-  font-family: "Gill Sans", "sans-serif";
   font-size: 1rem;
   margin: 1rem;
 }
@@ -356,7 +354,6 @@ section {
   max-height: 100vh;
   margin: auto;
   padding: 3rem 0;
-  font-family: "Gill Sans", "sans-serif";
 }
 
 .contact .container {
@@ -365,10 +362,6 @@ section {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-}
-
-.contact p {
-  font-family: "Gill Sans", "sans-serif";
 }
 
 /* Footer */
@@ -391,7 +384,7 @@ footer a {
 .footer-text {
   margin: 2rem 0;
   font-family: "Gill Sans", "sans-serif";
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }   
 
 .home_small {
