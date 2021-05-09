@@ -443,14 +443,6 @@ footer a {
     padding-bottom: 5rem;
   }
 
-  .home_small h2 {
-    /* font-size: 1.1rem; */
-  }
-
-  .home_small h3 {
-    /* font-size: 1rem; */
-  }
-
   .scroll {
     position: absolute;
     left: 44%;
@@ -464,30 +456,6 @@ footer a {
 
   .github-text {
     font-size: 1.2rem;
-  }
-
-  .about h2 {
-    /* font-size: 1rem; */
-  }
-
-  .about p {
-    /* font-size: 0.7rem; */
-  }
-
-  .about h2 {
-    /* font-size: 1rem; */
-  }
-
-  .play p {
-    /* font-size: 0.7rem; */
-  }
-
-  .contact, .contact p {
-    /* font-size: 0.9rem; */
-  }
-
-  footer, footer p {
-    /* font-size: 0.8rem; */
   }
 }
 
