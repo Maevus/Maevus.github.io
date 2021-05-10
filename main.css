@@ -33,6 +33,10 @@ ul {
   list-style: none;
 }
 
+.logo {
+  width: 8rem;
+}
+
 p {
   font-size: 1.4rem;
   margin: 1rem;
@@ -209,7 +213,6 @@ section {
 
 .home h2 {
   letter-spacing: 0.1rem;
-  /* font-size: 1.5rem; */
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
@@ -221,7 +224,6 @@ section {
 
 .home h3 {
   letter-spacing:0.1rem;
-  /* font-size: 1.4rem; */
   font-weight: 400;
   width: 33ch;
   margin: 0 auto;
@@ -246,7 +248,6 @@ section {
 
 .home_small h2 {
   letter-spacing: 0.2rem;
-  font-size: 2rem;
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
@@ -258,9 +259,8 @@ section {
 
 .home_small h3 {
   letter-spacing:0.2rem;
-  font-size: 2rem;
   font-weight: 400;
-  width: 12ch;
+  width: 13ch;
   margin: 0 auto;
   color: #f2f2f2;
   animation: slidein 1s ease 2.5s forwards;
@@ -451,6 +451,10 @@ footer a {
   }
 
   .github-text {
+    font-size: 1.2rem;
+  }
+
+  .footer-text {
     font-size: 1.2rem;
   }
 }
