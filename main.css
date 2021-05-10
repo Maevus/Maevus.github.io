@@ -90,8 +90,15 @@ header {
   padding: 0 1.5rem;
 }
 
-.logo {
-  width: 8rem;
+h3 img {
+  width: 2rem;
+}
+
+.with-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .me {
@@ -253,10 +260,10 @@ section {
   letter-spacing:0.2rem;
   font-size: 2rem;
   font-weight: 400;
-  width: 23ch;
+  width: 12ch;
   margin: 0 auto;
   color: #f2f2f2;
-  animation: slidein 1s ease 2.5s forwards, typing4 2.5s steps(26), blink 1s ease-in-out 5s 10;
+  animation: slidein 1s ease 2.5s forwards;
   animation-delay: 3s;
   overflow: hidden;
   white-space: nowrap;
@@ -487,17 +494,6 @@ footer a {
   }
   100% {
     width: 22ch;
-    border-right: 1px solid #f2f2f2;
-  }
-}
-
-@keyframes typing4 {
-  0% {
-    width: 0ch;
-    border-right: 1px solid #f2f2f2;
-  }
-  100% {
-    width: 23ch;
     border-right: 1px solid #f2f2f2;
   }
 }
