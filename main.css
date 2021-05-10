@@ -312,9 +312,7 @@ section {
 }
 
 .about-text {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0;
+  flex: 1, 1, 0;
 }
 
 .about-text h2 {
@@ -334,7 +332,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin: 0 1.5rem; */
 }
 
 .play-img {
