@@ -100,7 +100,7 @@ h3 img {
 
 .with-icons {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 
 }
@@ -389,6 +389,10 @@ footer a {
 
 .home_small {
   visibility: hidden;
+}
+
+.github-text {
+  font-size: 1.4rem;
 }
 
 /* Responsive Design */
