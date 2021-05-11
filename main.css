@@ -212,7 +212,6 @@ section {
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  margin: auto;
 }
 
 .home h2 {
@@ -248,7 +247,6 @@ section {
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  margin: auto;
 }
 
 .home_small h2 {
@@ -277,7 +275,7 @@ section {
 }
 
 .home .scroll {
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 
 .home_small .scroll {
