@@ -216,8 +216,8 @@ section {
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 2s steps(30), blink 1s 2.1s 1;
-  width: 30ch;
+  animation: typing 2s steps(28), blink 1s 2.1s 1;
+  width: 28ch;
   margin: auto;
   border-right: 1px transparent;
 }
@@ -225,10 +225,10 @@ section {
 .home h3 {
   letter-spacing:0.1rem;
   font-weight: 400;
-  width: 33ch;
+  width: 32ch;
   margin: 0 auto;
   color: #f2f2f2;
-  animation: slidein 1s ease 2.5s forwards, typing2 2.5s steps(33), blink 1s ease-in-out 5s 10;
+  animation: slidein 1s ease 2.5s forwards, typing2 2.5s steps(32), blink 1s ease-in-out 5s 10;
   animation-delay: 3s;
   overflow: hidden;
   white-space: nowrap;
@@ -476,7 +476,7 @@ footer a {
     border-right: 1px solid #f2f2f2;
   }
   100% {
-    width: 30ch;
+    width: 28ch;
     border-right: 1px solid #f2f2f2;
   }
 }
@@ -487,7 +487,7 @@ footer a {
     border-right: 1px solid #f2f2f2;
   }
   100% {
-    width: 33ch;
+    width: 32ch;
     border-right: 1px solid #f2f2f2;
   }
 }
