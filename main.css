@@ -189,7 +189,7 @@ nav {
   width: 35ch;
   margin: 0 auto;
   color: #f2f2f2;
-  animation: slidein 1s ease 2.5s forwards, typing2 2.5s steps(33), blink 1s ease-in-out 5s 10;
+  animation: slidein 1s ease 2.5s forwards, typing2 2.5s steps(35), blink 1s ease-in-out 5s 10;
   animation-delay: 3s;
   overflow: hidden;
   white-space: nowrap;
