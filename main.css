@@ -186,7 +186,7 @@ nav {
   letter-spacing:0.2rem;
   font-size: 2rem;
   font-weight: 400;
-  width: 33ch;
+  width: 35ch;
   margin: 0 auto;
   color: #f2f2f2;
   animation: slidein 1s ease 2.5s forwards, typing2 2.5s steps(33), blink 1s ease-in-out 5s 10;
